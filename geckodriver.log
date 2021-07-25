@@ -1,0 +1,104 @@
+1627231050270	geckodriver	INFO	Listening on 127.0.0.1:37327
+1627231050280	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAiEB0q"
+1627231051120	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is ES
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAiEB0q/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+1627231054649	Marionette	INFO	Listening on port 46539
+1627231054725	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://maps.google.com/maps/api/js?v=3.5&sensor=false, line 163: TypeError: h is undefined
+JavaScript error: https://maps.googleapis.com/maps/api/js?sensor=false&language=es, line 163: TypeError: h is undefined
+1627231140033	Marionette	INFO	Stopped listening on port 46539
+1627231603062	geckodriver	INFO	Listening on 127.0.0.1:50531
+1627231603087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKxV6UC"
+1627231603723	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is ES
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKxV6UC/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+1627231607242	Marionette	INFO	Listening on port 37067
+1627231607334	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://maps.google.com/maps/api/js?v=3.5&sensor=false, line 163: TypeError: h is undefined
+JavaScript error: https://maps.googleapis.com/maps/api/js?sensor=false&language=es, line 163: TypeError: h is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://www.adrase.ciemat.es"
+1627231670074	Marionette	INFO	Stopped listening on port 37067
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627231688496	geckodriver	INFO	Listening on 127.0.0.1:40707
+1627231688508	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOhoCF3"
+1627231689234	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is ES
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOhoCF3/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+1627231692873	Marionette	INFO	Listening on port 37691
+1627231692980	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://maps.google.com/maps/api/js?v=3.5&sensor=false, line 163: TypeError: h is undefined
+JavaScript error: https://maps.googleapis.com/maps/api/js?sensor=false&language=es, line 163: TypeError: h is undefined
+1627231737946	Marionette	INFO	Stopped listening on port 37691
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627232037933	geckodriver	INFO	Listening on 127.0.0.1:45233
+1627232037944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVVhHma"
+1627232038537	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is ES
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVVhHma/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+1627232042386	Marionette	INFO	Listening on port 44605
+1627232042523	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://maps.google.com/maps/api/js?v=3.5&sensor=false, line 163: TypeError: h is undefined
+JavaScript error: https://maps.googleapis.com/maps/api/js?sensor=false&language=es, line 163: TypeError: h is undefined
+1627232067286	Marionette	INFO	Stopped listening on port 44605
+1627232175683	geckodriver	INFO	Listening on 127.0.0.1:39661
+1627232175691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTN3kRj"
+1627232176261	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is ES
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTN3kRj/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+1627232179751	Marionette	INFO	Listening on port 38107
+1627232179825	Marionette	WARN	TLS certificate errors will be ignored for this session
+1627232191319	Marionette	INFO	Stopped listening on port 38107
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627232232548	geckodriver	INFO	Listening on 127.0.0.1:44887
+1627232233557	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8dAC5K"
+1627232234342	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is ES
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8dAC5K/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+1627232237835	Marionette	INFO	Listening on port 41785
+1627232237985	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://maps.google.com/maps/api/js?v=3.5&sensor=false, line 163: TypeError: h is undefined
+JavaScript error: https://maps.googleapis.com/maps/api/js?sensor=false&language=es, line 163: TypeError: h is undefined
+1627232255814	Marionette	INFO	Stopped listening on port 41785
+1627232297995	geckodriver	INFO	Listening on 127.0.0.1:35429
+1627232298007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQNpzni"
+1627232298634	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is ES
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQNpzni/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+1627232302043	Marionette	INFO	Listening on port 35073
+1627232302160	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://maps.google.com/maps/api/js?v=3.5&sensor=false, line 163: TypeError: h is undefined
+JavaScript error: https://maps.googleapis.com/maps/api/js?sensor=false&language=es, line 163: TypeError: h is undefined
+1627232320444	Marionette	INFO	Stopped listening on port 35073
+1627232344848	geckodriver	INFO	Listening on 127.0.0.1:56449
+1627232344859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemgONAX"
+1627232345447	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is ES
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemgONAX/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+1627232348848	Marionette	INFO	Listening on port 43173
+1627232348968	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://maps.google.com/maps/api/js?v=3.5&sensor=false, line 163: TypeError: h is undefined
+JavaScript error: https://maps.googleapis.com/maps/api/js?sensor=false&language=es, line 163: TypeError: h is undefined
+1627232379043	Marionette	INFO	Stopped listening on port 43173

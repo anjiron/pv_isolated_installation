@@ -39,7 +39,7 @@ class PvInsolated():
         return e_total
     
     def rendimiento_instalacion(self):
-        n = 0.8
+        n = 0.75
         energia = self.energia_total() / n
         return print(energia)
 
