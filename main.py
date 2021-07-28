@@ -1,6 +1,9 @@
 
+import radiacion
+
 class PvInsolated():
     def __init__(self):
+        self.radiacion = radiacion.GetRadiacion()
         self.dispositivos()
         self.add_calculo_energia()
         self.potencia_total()

@@ -3,6 +3,7 @@ import pandas
 
 class GetRadiacion():
     def __init__(self):
+        # LATITUD Y LONGITUD TIENEN  QUE SER VALORES DE ENTRADA
         self.latitud = 38.27
         self.longitud = -3.05
 
