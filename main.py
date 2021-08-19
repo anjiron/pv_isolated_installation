@@ -13,8 +13,8 @@ class PvInsolated():
         self.energia_t = energia_total.GetEnergiaTotal(datos_dic)
         
         print (datos_dic)
-        print (self.potencia_t.potencia_total())
-        print (self.energia_t.energia_total())
+        print ("Potencia total: ", self.potencia_t.potencia_total())
+        print ("Energía total: ", self.energia_t.energia_total())
     
     
     # def rendimiento_instalacion(self):
