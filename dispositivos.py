@@ -3,7 +3,6 @@ class SetDispositivos():
     def __init__(self):
         # Estos datos de entra en el futuro vendrán desde web 
         self.datos = {}
-        datos_dic = self.dispositivos
 
 
     def dispositivos(self):
