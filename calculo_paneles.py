@@ -15,4 +15,3 @@ class SetPaneles():
         return paneles_red
 
 
-#SetPaneles(3534, 2)

@@ -4,6 +4,7 @@ import potencial_total
 import energia_total
 import radiacion
 import calculo_paneles
+import calculo_baterias
 
 class PvInsolated():
     def __init__(self):
@@ -16,13 +17,15 @@ class PvInsolated():
         energia_t = self.energia_t.energia_total()
         self.calculo_paneles = calculo_paneles.SetPaneles(energia_t, radiacion_min)
         paneles = self.calculo_paneles.calculo_paneles()
+        self.calculo_baterias = calculo_baterias.SetBaterias(energia_t)
+        cap_baterias = self.calculo_baterias.capacidad_bat_prof_diaria()
         
         print (datos_dic)
         print ("Potencia total: ", self.potencia_t.potencia_total())
         print ("Energía total: ", energia_t)
         print ("Radiacion minima: ", radiacion_min)
         print ("Paneles a instalar: ", paneles)
-    
+        print ("Capacidad baterias a instalar: ", cap_baterias)
     
     # def rendimiento_instalacion(self):
     #     n = 0.75
