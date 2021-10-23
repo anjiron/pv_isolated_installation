@@ -11,9 +11,9 @@ class GetRadiacion():
 
         url = 'http://www.adrase.com/adrasemaps/php/monthly_popup.php?lat=' + str(self.latitud) + '&lon=' + str(self.longitud) + '&var_tipe=0'
 
-        try:
-            df_tabla_resultados = pandas.read_html(url)
-        except: print("EL VALOR DE LATITUD O LONGITUD INTRODUCIDO ESTÁ FUERA DE RANGO\n VALORES VÁLIDOS: ESPAÑA\n")
+        #try:
+        df_tabla_resultados = pandas.read_html(url)
+        #except: print("EL VALOR DE LATITUD O LONGITUD INTRODUCIDO ESTÁ FUERA DE RANGO\n VALORES VÁLIDOS: ESPAÑA\n")
 
         print(df_tabla_resultados[0])
         valores_minimos = df_tabla_resultados[0].min(numeric_only=True, axis=1)

@@ -21,13 +21,13 @@ class PvInsolated():
         cap_baterias_diaria = self.calculo_baterias.capacidad_bat_prof_diaria()
         cap_baterias_tres_dias = self.calculo_baterias.capacidad_bat_prof_tres_dias()
 
-        print (datos_dic)
-        print ("Potencia total: ", self.potencia_t.potencia_total)
-        print ("Energía total: ", energia_t)
-        print ("Radiacion minima: ", radiacion_min)
-        print ("Paneles a instalar: ", paneles)
-        print ("Capacidad baterias a instalar (Diaria): ", cap_baterias_diaria)
-        print ("Capacidad baterias a instalar (Tres_Dias): ", cap_baterias_tres_dias)
+        print(datos_dic)
+        print("Potencia total: ", self.potencia_t.potencia_total)
+        print("Energía total: ", energia_t)
+        print("Radiacion minima: ", radiacion_min)
+        print("Paneles a instalar: ", paneles)
+        print("Capacidad baterias a instalar (Diaria): ", cap_baterias_diaria)
+        print("Capacidad baterias a instalar (Tres_Dias): ", cap_baterias_tres_dias)
     # def rendimiento_instalacion(self):
     #     n = 0.75
     #     energia = self.energia_total() / n
