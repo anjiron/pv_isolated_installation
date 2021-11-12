@@ -1,39 +1,37 @@
 
+import dispositivos
+import potencial_total
+import energia_total
+import radiacion
+import calculo_paneles
+import calculo_baterias
+
 class PvInsolated():
     def __init__(self):
-        self.dispositivos()
-        self.add_calculo_energia()
-        self.potencia_total()
-        self.energia_total()
-        return
-    
-    def dispositivos(self):
-        self.datos = {
-                    'luminarias': {'numero': 16, 'potencia': 10, 'horas': 6},
-                    'ordenadores': {'numero': 2, 'potencia': 70, 'horas': 2},
-                    'frigorifico': {'numero': 3, 'potencia': 700, 'horas': 12},
-                    'television': {'numero': 2, 'potencia': 100, 'horas': 4}
-                    }
-        return 
-    
-    def add_calculo_energia(self):
-        for i in self.datos.values():
-            e_diaria = i['numero'] * i['potencia'] + i['horas']
-            i.update({'energia': e_diaria})
-        return
-    
-    def potencia_total(self):
-        p_total = 0
-        for i in self.datos.values():
-            p_total = p_total + i['potencia']   
-        return print(p_total)
-              
+        self.radiacion = radiacion.GetRadiacion()
+        radiacion_min = self.radiacion.obtener_radiacion_min()
+        self.dispositivos = dispositivos.SetDispositivos()
+        datos_dic = self.dispositivos.dispositivos()
+        self.potencia_t = potencial_total.GetPotenciaTotal(datos_dic)
+        self.energia_t = energia_total.GetEnergiaTotal(datos_dic)
+        energia_t = self.energia_t.energia_total()
+        self.calculo_paneles = calculo_paneles.SetPaneles(energia_t, radiacion_min)
+        paneles = self.calculo_paneles.calculo_paneles()
+        self.calculo_baterias = calculo_baterias.SetBaterias(energia_t)
+        cap_baterias_diaria = self.calculo_baterias.capacidad_bat_prof_diaria()
+        cap_baterias_tres_dias = self.calculo_baterias.capacidad_bat_prof_tres_dias()
 
-    def energia_total(self):
-        e_total = 0
-        for i in self.datos.values():
-            e_total = e_total + i['energia']   
-        return print(e_total)
+        print(datos_dic)
+        print("Potencia total: ", self.potencia_t.potencia_total)
+        print("Energía total: ", energia_t)
+        print("Radiacion minima: ", radiacion_min)
+        print("Paneles a instalar: ", paneles)
+        print("Capacidad baterias a instalar (Diaria): ", cap_baterias_diaria)
+        print("Capacidad baterias a instalar (Tres_Dias): ", cap_baterias_tres_dias)
+    # def rendimiento_instalacion(self):
+    #     n = 0.75
+    #     energia = self.energia_total() / n
+    #     return print(energia)
 
 
 
