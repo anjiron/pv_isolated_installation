@@ -1,16 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-</head>
-<body>
-    <p>Luminarias: <input type="number" name="luminarias"></p>
-    <p>Ordenadores: <input type="number" name="ordenadores"></p>
-    <p>Frigorificos: <input type="number" name="frigorificos"></p>
-    <p>Ventiladores: <input type="number" name="ventiladores"></p>
-    <p>Lavadoras: <input type="number" name="lavadoras"></p>
-    <p>Televisiones: <input type="number" name="televisiones"></p>
-    <p>Bomba presion: <input type="number" name="televisiones"></p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <style>
+            form {
+              /* Centrar el formulario en la página */
+              margin: 0 auto;
+              width: 300px;
+              /* Esquema del formulario */
+              padding: 1em;
+              border: 1px solid #CCC;
+              border-radius: 1em;
+            }
+
+            ul {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+            }
+
+            form li + li {
+              margin-top: 2em;
+            }
+
+            label {
+              /* Tamaño y alineación uniforme */
+              display: inline-block;
+              width: 150px;
+              text-align: right;
+            }
+
+            input,
+            textarea {
+              /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+                 Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+              font: 1em sans-serif;
+
+              /* Tamaño uniforme del campo de texto */
+              width: 50px;
+              box-sizing: border-box;
+
+              /* Hacer coincidir los bordes del campo del formulario */
+              border: 1px solid #999;
+            }
+
+            input:focus,
+            textarea:focus {
+              /* Destacado adicional para elementos que tienen el cursor */
+              border-color: #000;
+            }
+
+            textarea {
+              /* Alinear los campos de texto multilínea con sus etiquetas */
+              vertical-align: top;
+
+              /* Proporcionar espacio para escribir texto */
+              height: 5em;
+            }
+
+            .button {
+              /* Alinear los botones con los campos de texto */
+              padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+            }
+
+            button {
+              /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+                 entre las etiquetas y sus campos de texto */
+              margin-left: .5em;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <ul>
+                <li>
+                    <label for="luminarias">Luminarias:</label>
+                    <input type="number" value="0" name="luminarias">
+                </li>
+                <li>
+                    <label for="ordenadores">Ordenadores:</label>
+                    <input type="number" value="0" name="ordenadores">
+                </li>
+                <li>
+                    <label for="frigorificos">Frigorificos:</label>
+                    <input type="number" value="0" name="frigorificos">
+                </li>
+                <li>
+                    <label for="ventiladores">Ventiladores:</label>
+                    <input type="number" value="0" name="ventiladores">
+                </li>
+                <li>
+                    <label for="lavadoras">Lavadoras:</label>
+                    <input type="number" value="0" name="lavadoras">
+                </li>
+                <li>
+                    <label for="televisiones">Televisiones:</label>
+                    <input type="number" value="0" name="televisiones">
+                </li>
+                <li>
+                    <label for="bomba_presion">Bomba presión:</label>
+                    <input type="number" value="0" name="bomba_presion">
+                </li>
+                <li class="button">
+                    <button type="submit">Calcule instalación</button>
+                </li>
+            </ul>
+        </form>
+    </body>
 </html>
