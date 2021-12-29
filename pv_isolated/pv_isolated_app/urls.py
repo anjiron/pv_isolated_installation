@@ -6,5 +6,5 @@ from pv_isolated_app import views
 
 urlpatterns = [
     path('', views.home, name="HOME"),
-    path('calculadora/', views.calculadora, name="CALCULADORA"),
+    path('input_data/', views.input_data, name="INPUT_DATA"),
 ]

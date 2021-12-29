@@ -7,6 +7,6 @@ def home(request):
     return render(request, "pv_isolated_app/home.html")
 
 
-def calculadora(request):
+def input_data(request):
 
-    return render(request, "pv_isolated_app/calculadora.html")
+    return render(request, "pv_isolated_app/input_data.html")
