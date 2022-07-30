@@ -22,4 +22,14 @@ class GetRadiacion():
         return rad_media_min
 
 
-#print(GetRadiacion().obtener_radiacion_min())
+
+B
+A
+A
+A
+A
+A
+B
+D
+D
+#arint(GetRadiacion().obtener_radiacion_min())
